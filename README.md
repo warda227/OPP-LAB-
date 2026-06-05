@@ -90,11 +90,15 @@ Design an Inventory class that can hold information and calculate data for items
 
 * Private Member Variables
 
-Variable Name	Description
-itemNumber	An int that holds the item’s item number.
-quantity	An int for holding the quantity of the items on hand.
-cost	A double for holding the wholesale per unit cost of the item.
-totalCost	A double for holding the total inventory cost of the item (quantity * cost).
+### Private Member Variables
+
+| Variable Name | Description |
+|---|---|
+| `itemNumber` | An `int` that holds the item's item number. |
+| `quantity` | An `int` for holding the quantity of the items on hand. |
+| `cost` | A `double` for holding the wholesale per unit cost of the item. |
+| `totalCost` | A `double` for holding the total inventory cost of the item ( `quantity * cost` ). |
+
 * Public Member Functions
 
 Member Function	Description
