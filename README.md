@@ -82,7 +82,7 @@ Write a Circle class that has the following member variables.
 * getCircumference: Returns the circumference of the circle, which is calculated as: circumference = 2 * pi * radius
 * Write a program that demonstrates the Circle class by asking the user for the circle’s radius, creating a Circle object, and then reporting the circle’s area, diameter, and circumference.
 
-##Experiment 03
+## Experiment 03
 Design an Inventory class that can hold information and calculate data for items in a retail store’s inventory.
 
 * Private Member Variables
