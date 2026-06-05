@@ -98,20 +98,21 @@ Design an Inventory class that can hold information and calculate data for items
 | `cost` | A `double` for holding the wholesale per unit cost of the item. |
 | `totalCost` | A `double` for holding the total inventory cost of the item ( `quantity * cost` ). |
 
-* Public Member Functions
+ ### Public Member Functions
 
-Member Function	Description
-Inventory()	Default constructor that sets all member variables to 0.
-Inventory(int item, int qty, double c)	Constructor that accepts item number, quantity, and cost. It stores the values and calls setTotalCost().
-setItemNumber(int item)	Stores the item number.
-setQuantity(int qty)	Stores the quantity.
-setCost(double c)	Stores the cost per item.
-setTotalCost()	Calculates and stores quantity * cost in totalCost.
-getItemNumber()	Returns the item number.
-getQuantity()	Returns the quantity.
-getCost()	Returns the cost per item.
-getTotalCost()	Returns the total cost.
-Input Validation
+| Member Function | Description |
+|---|---|
+| `Inventory()` | Default constructor that sets all member variables to 0. |
+| `Inventory(int item, int qty, double c)` | Constructor that accepts item number, quantity, and cost. It stores the values and calls `setTotalCost()`. |
+| `setItemNumber(int item)` | Stores the item number. |
+| `setQuantity(int qty)` | Stores the quantity. |
+| `setCost(double c)` | Stores the cost per item. |
+| `setTotalCost()` | Calculates and stores `quantity * cost` in `totalCost`. |
+| `getItemNumber()` | Returns the item number. |
+| `getQuantity()` | Returns the quantity. |
+| `getCost()` | Returns the cost per item. |
+| `getTotalCost()` | Returns the total cost. |
+
 
 The program should not accept negative values for:
 
