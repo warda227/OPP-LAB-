@@ -116,9 +116,9 @@ Design an Inventory class that can hold information and calculate data for items
 
 The program should not accept negative values for:
 
-itemNumber
-quantity
-cost
+* itemNumber
+* quantity
+* cost
 If a negative value is entered, the user should be asked to enter the value again.
 
 Example
