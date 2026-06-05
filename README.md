@@ -88,7 +88,6 @@ Write a Circle class that has the following member variables.
 ## Experiment 03
 Design an Inventory class that can hold information and calculate data for items in a retail store’s inventory.
 
-* Private Member Variables
 
 ### Private Member Variables
 
