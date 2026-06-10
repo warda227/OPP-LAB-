@@ -132,3 +132,86 @@ Example
 * Quantity: 5
 * Cost per Item: 12.5
 * Total Cost: 62.5
+#Week05
+##Experiment 01
+Design a Payroll class that has data members for an employee’s hourly pay rate, number of hours worked, and total pay for the week. Write a program with an array of seven Payroll objects. The program should ask the user for the number of hours each employee has worked and will then display the amount of gross pay each has earned.
+
+Input Validation: Do not accept values greater than 60 for the number of hours worked.
+
+##Experiment 2
+The objective of this exercise is to understand the declaration of a class with its data members and member functions, and the concept of passing objects as function parameters.
+
+Create a class Travel with two data members: kilometer and hour. Class member functions:
+
+input() : void
+show() : void
+add(Travel p) : void — accepts an object of Travel as a parameter, adds the values of data members of the parameter object and the calling object, and displays the result.
+Instructions:
+
+Declare two objects t1 and t2 of class Travel and input data in both objects.
+Call the add function with t1 object and pass t2 object as an argument.
+Experiment 03
+The objective of this exercise is to understand the concept of static data members.
+
+Write a class Capital with one static data member count, which counts the number of objects created of a particular class.
+
+#Week 06
+##Experiment 01
+Write a class definition ComplexNumber with two data members: realPart and imaginaryPart. We wish to perform addition, subtraction, and multiplication with objects of the ComplexNumber class.
+
+A complex number c = a + bj consists of two parts: the real part a and the imaginary part bj. We can perform arithmetic operations on complex numbers as follows:
+
+Addition (+): (a1 + b1j) + (a2 + b2j) = (a1 + a2) + (b1 + b2)j
+Subtraction (-): (a1 + b1j) – (a2 + b2j) = (a1 – a2) + (b1 – b2)j
+Multiplication (*): (a1 + b1j) * (a2 + b2j) = (a1a2 – b1b2) + (a1b2 + a2b1)j Create objects of this class and test all the member functions.
+Experiment 02
+The objective of this exercise is to how to learn the friend function of a class. Room
+
+width : double
+printWidth(Room) : friend void
+setWidth(double) : void
+Procedure
+
+Do the exercise and create an object of the Room class and call the setWidth() function to pass 10.10 as the argument value. Later print the width of the room by calling the printWidth(Room) function. But see this function is a friend of the Room class, so this will not be a member of the class. Therefore we shall define it outside the class, rather than using the :: operators with the class member function definition.
+
+Experiment 03
+Create a class Named Student which can save student information containing Roll Number, First Name, Last Name, Student class, Marks (can be in points) and grade. Set default values for class members in default constructor. Student Information to Store
+
+Roll Number
+First Name
+Last Name
+Student Class
+Total Marks
+Grade
+All the class members will be private and no getter setters would be created to set or get the values.
+
+Overload constructor to initialize private class members with user provided values.
+Create a function DisplayClassData which accepts the address of class student as argument.
+This function should display all data (private data members) in the function.
+
+#Week 07
+##Experiment 01
+Write a program that declares a Complex data type having real and imaginary as its private members. Using operator overloading declares an additional operator that helps in adding two complex objects. Similarly overload the = operator to assign one value of a complex object to the other complex object. I.e. Complex c, b; c – b; c+b; and c*b;
+
+Complex
+double rp; // real part of the complex number
+double ip; // imaginary part of the complex number
+Complex(double, double)
+Complex operator+(const Complex&)
+Complex operator-(const Complex&)
+Complex operator*(const Complex&)
+void print()
+Experiment 02
+Design a class named Month. The class should have the following private members:
+
+name A string object that holds the name of a month, such as “January,” “February,”
+monthNumber An integer variable that holds the number of the month. For example, January would be 1, February would be 2, etc. Valid values for this variable are 1 through 12.
+In addition, provide the following member functions:
+
+A default constructor that sets monthNumber to 1 and name to “January.”
+A constructor that accepts the name of the month as an argument. It should set name to the value passed as the argument and set monthNumber to the correct value.
+A constructor that accepts the number of the month as an argument. It should set monthNumber to the value passed as the argument and set name to the correct month name.
+Appropriate set and get functions for the name and monthNumber member variables.
+Prefix and postfix overloaded ++ operator functions that increment monthNumber and set name to the name of next month. If monthNumber is set to 12 when these functions execute, they should set monthNumber to 1 and name to “January.”
+Prefix and postfix overloaded − − operator functions that decrement monthNumber and set name to the name of previous month. If monthNumber is set to 1 when these functions execute, they should set monthNumber to 12 and name to “December.”
+Also, you should overload cout ’s << operator and cin ’s >> operator to work with the Month class. Demonstrate the class in a program.
